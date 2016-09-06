@@ -1,0 +1,10 @@
+def qdtc():
+	print ("Welcome to the quadratic calculator (AX2+BX + C)! Let me get your integers…")
+	a = int(input("Please enter an integer for A:"))
+	b = int(input("Please enter an integer for B:"))
+	c = int(input("Please enter an integer for C:"))
+	x = int(input("Please enter an integer for X:"))
+	ans = ((a*(x**2))+(b*x)+c)
+	print ("You entered this quadratic:",str(a)+"X^2 +",str(b)+"X +",str(c))
+	print ("The value of your quadratic is", str(ans))
+qdtc()
